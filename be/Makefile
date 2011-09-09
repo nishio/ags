@@ -5,7 +5,6 @@ TARGETS = \
 /golf/local/j601 \
 /usr/local/bin/xgawk \
 /usr/local/bin/cyc \
-/usr/local/bin/kite \
 /golf/local/arc3/as2.scm \
 /golf/local/gobin/8l \
 /golf/local/fernando \
