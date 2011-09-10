@@ -1,4 +1,13 @@
 * branch: ctf
 セプキャンCTF競技で「コードを投稿してサーバ側でテストを食わせて正誤判定」をできるようにするためのブランチ
 
+** MEMO
+be, feが何の略かわからなかったけどbackend, frontendかな。
+fe/handler.rb:485 から TCPSocket.open してbe/srv/testsrv.rb
+
+** ISSUES
+
+be/modules で makeすると
+>make: *** `all' に必要なターゲット `reset' を make するルールがありません.  中止.
+何を意図したものか？単に削っていいのか？
 
